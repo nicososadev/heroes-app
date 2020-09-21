@@ -22,7 +22,7 @@ export const HeroCard = (hero) => {
                             <small>{hero.first_appearance}</small>
                         </p>
 
-                        <Link to={`./hero/${hero.id}`}>Mas...</Link>
+                        <Link to={`./hero/${hero.id}`}>More...</Link>
                     </div>
                 </div>
             </div>

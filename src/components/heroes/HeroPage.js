@@ -43,7 +43,7 @@ export const HeroPage = ({ history }) => {
                     </li>
                 </ul>
 
-                <h5>Characters</h5>
+                <h5 className="mt-3">Characters</h5>
                 <p>{ hero.characters }</p>
 
                 <button
