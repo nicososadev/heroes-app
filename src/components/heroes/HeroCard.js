@@ -8,7 +8,7 @@ export const HeroCard = (hero) => {
         <div className="card ms-3" style={{ maxWidth: 540 }}>
             <div className="row no-gutters">
                 <div className="col-md-4">
-                    <img className="card-img" alt={hero.superhero} src={`./assets/heroes/${hero.id}.jpg`} />
+                    <img className="card-img" alt={hero.superhero} src={`../heroes-app/assets/heroes/${hero.id}.jpg`} />
                 </div>
                 <div className="col-md-8">
                     <div className="card-body">
