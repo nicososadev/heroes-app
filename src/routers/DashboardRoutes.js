@@ -7,7 +7,9 @@ import { SearchPage } from '../components/search/SearchPage'
 import { Navbar } from '../components/ui/NavBar'
 
 export const DashboardRoutes = () => {
+
     return (
+        
         <Fragment>
             <Navbar />
 
